@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+   margin: 0px;
+   font-family: 'Roboto Slab', serif;
+   font-family: 'Oxygen', sans-serif;
+}
+.topmenu {
+    overflow: hidden;
+    width: 100%;
+}
+
+.contenar {
+    width: 1140px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: auto;
+	padding-bottom:60px;
+	
+}
+
+.textweird span {
+    display: inline;
+    width: 200px;
+    float: left;
+}
+
+.menuitems {
+    float: right;
+}
+.topmenu {
+    overflow: hidden;
+    width: 100%;
+    background: #F5637C;
+    padding: 0px;
+}
+
+.contenar {
+    width: 1140px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: auto;
+}
+
+.textweird span {
+    margin-top: 7px;
+    display: inline;
+    width: 200px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.menuitems {
+    float: right;
+    width: 600px;
+    /* align-items: center; */
+}
+ul.singalmenus li {
+    float: left;
+    margin-right: 40px;
+    list-style: none;
+}
+
+ul.singalmenus li a {
+    text-decoration: none;
+    color: #FEEFF2;
+}
+.hstitle h1 {
+    font-size: 65px;
+    color: #F7F7F7;
+    margin-bottom: -15px;
+}
+
+.hstitle p {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+    width: 300px;
+    border-right: 2px solid white;
+}
+
+section.homesilder {
+    background:linear-gradient(#00000073,#00000073),url(weirdimage/b1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 0px;
+    min-width: 800px;
+    display: grid;
+    align-items: center;
+    min-height: 650px;
+}
+.hsbutton button {
+    
+    padding: 12px 30px;
+    font-size: 19px;
+    color: white;
+    background: none;
+    border: 1px solid #FFFFEA !important;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+    border-style: none;
+	outline:none;
+}
+
+.hsbutton button:hover {
+    color: #FFFFEA;
+    background: #F5637C;
+    border-style: none !important;
+	border: 1px solid #F5637C !important;
+}
+header#topbar {
+    position: sticky;
+    top: 0;
+}
+section{
+	padding:80px 0px;
+}
+.mybiotitle {
+    text-align: center;
+}
+
+.mybiotitle span {
+    font-size: 16px;
+    color: #f5637c;
+}
+
+.mybiotitle h1 {
+    font-size: 40px;
+    margin: 5px 0px 20px;
+}
+
+.mybiotitle p {
+    width: 710px;
+    text-align: center;
+    margin: auto;
+    color: #5b5e6d;
+}
+.mybiowrapper {
+    overflow: hidden;
+    
+}
+
+.mybioCreativeProjects h1 {
+    float: left;
+    font-size: 40px;
+}
+
+.mybioCreativeProjects p {
+    font-size: 17px;
+    color: #5b5e6d;
+    line-height: 30px;
+}
+
+.infowrapper {
+    column-count: 2;
+    float: left;
+}
+
+.mybioCreativeProjects {
+    float: left;
+    width: 550px;
+}
+
+.mybioimage {
+    width: 550px;
+    float: right;
+}
+
+.mybioimage img {
+    max-width: 100%;
+    margin-top: 45px;
+}
+
+
+.singalinfo h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.singalinfo p {
+    line-height: 25px;
+    color: #605E6D;
+}
+.singalinfowrapper {overflow: hidden;}
+
+.singalinfo h3 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.singalinfo p {
+    line-height: 25px;
+    color: #605E6D;
+}
+
+
+
+.singalinfo {
+    width: 270px;
+    float: left;
+}
+.singalinfo h3:hover {
+    color: #f5637c;
+}
+
+.singalinfo h3 {
+    width: 150px;
+    cursor:pointer;
+}
+button.mybiobutton {
+    padding: 15px 30px;
+    border-style: none;
+    background: #f5637c;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+    text-align: center;
+    margin-top: 30px;
+    outline:none;
+    border: 1px solid #f5637c;
+}
+
+button.mybiobutton:hover {
+    background: white;
+    color: #f5637c;
+    border: 1px solid #f5637c;
+    /* border-radius: 3px; */
+}
+#myskills{
+	background:#f7f7f7;
+}
+.mybioskills {
+    text-align: center;
+	
+}
+
+.mybioskills span {
+    font-size: 16px;
+    color:  #f5637c;
+}
+
+.mybioskills h1 {
+    font-size: 40px;
+    margin: 5px 0px 20px;
+}
+
+.mybioskills p {
+    width: 710px;
+    text-align: center;
+    margin: auto;
+    color:#605E6D;
+}
+
+
+.mybioinfo {
+    overflow: hidden;
+}
+
+.mybioinfo li {
+    width: 325px;
+    float: left;
+}
+.mybioinfo ul {
+    list-style: none;
+    margin-top: 50px;
+}
+
+.mybioinfo li {
+    margin: 20px;
+    font-size: 25px;
+}
+
+span.bar {
+    background: #E9ECEF;
+    display: block;
+    height: 5px;
+  
+    border-radius: 3px;
+    overflow: hidden;
+   
+    margin-top: 15px;
+}
+
+span.bar span {
+    height: 5px;
+    float: left;
+    background: #f5637c;
+}
+
+span.Photoshop {
+    width: 50%;
+}
+
+span.Desinger {
+    width: 70%;
+}
+
+span.Html5 {
+    width: 65%;
+}
+
+span.Design {
+    width: 80%;
+}
+
+span.Illustrator {
+    width: 90%;
+}
+
+span.Editor {
+    width: 50%;
+}
+
+span.Developers {
+    width: 60%;
+}
+
+span.Bootstrap {
+    width: 70%;
+}
+
+span.Invisonapp {
+    width: 50%;
+}
+
+.tfftitle {
+    text-align: center;
+}
+
+.tfftitle span {
+    font-size: 16px;
+    color: #f5637c;
+}
+
+.tfftitle h1 {
+    font-size: 40px;
+    margin: 5px 0px 20px;
+}
+
+.tfftitle p {
+    width: 710px;
+    text-align: center;
+    margin: auto;
+    color: #605E6D;
+}
+
+.ttfboxwrapper {
+    overflow: hidden;
+}
+
+.ttfsingalbox {
+    margin-left: 10px;
+    width: 223px;
+    border: 1px solid #ecdddd;
+    text-align: center;
+    height: 190px;
+    margin-top: 70px;
+    border-radius: 5px;
+    padding:25px 25px;
+   
+    float: left;
+}
+
+.ttfsingalbox i {
+    margin-top: 25px;
+    font-size: 20px;
+    border: 20px solid rgba(247, 124, 146, 0.2);
+    border-radius: 50%;
+    color: #f5637c;
+    background: rgba(247, 124, 146, 0.2);
+}
+.ttfsingalbox h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
+.ttfsingalbox p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.Myctitle {
+    text-align: center;
+}
+
+.Myctitle span {
+    font-size: 16px;
+    color: #f5637c;
+}
+
+.Myctitle h1 {
+    font-size: 40px;
+    margin: 5px 0px 20px;
+}
+
+.Myctitle p {
+    width: 710px;
+    text-align: center;
+    margin: auto;
+    color: #605E6D;
+}
+#Myclients{
+	background:#f7f7f7;
+}
+.myclientsboxwrapper {
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.myclientsingalbox {
+    width: 320px;
+    float: left;
+    border: 1px solid #d0c3c3;
+    padding: 30px 20px;
+    background: white;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.singalboxinfo img {
+    max-width: 70px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 15px;
+}
+
+.singalboxinfo {
+    overflow: hidden;
+}
+
+.singalboxinfo h3 {
+    float: right;
+    width: 210px;
+    font-size: 19px;
+    margin-top: 35px;
+    line-height: 0px;
+    color: #605E6D;
+}
+
+.singalboxinfo span {
+    float: right;
+    width: 210px;
+    margin-bottom: 25px;
+    color: #605E6D;
+    font-size: 14px;
+}
+
+.myclientsingalbox p {
+    font-size: 15px;
+    color: #605E6D;
+    text-align: justify;
+    line-height: 25px;
+}
+.myclientsingalbox:last-child {
+    margin-right: 0px;
+}
+.freelancertitle {
+    text-align: center;
+}
+
+.freelancertitle h1 {
+    font-size: 40px;
+}
+
+
+
+button.freelancerbtn {
+    border-color: #f5637c;
+    color: white;
+    background: #f5637c;
+    border: 2px solid #f5637c;
+    outline: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button.freelancerbtn:hover {
+    color: #f5637c;
+    background: white;
+    border: 2px solid #f5637c;
+}
+#email{
+	background: linear-gradient(#1d1c1c73,#1d1c1c73),url(weirdimage/b3.jpg);
+	padding: 70px;
+	min-height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment:fixed;
+}
+.emailwrapper {
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.emailtitle {
+    width: 480px;
+    float: left;
+    align-items: center;
+}
+
+.emailtitle h1 {
+    font-size: 25px;
+    color: white;
+}
+
+.emailtitle p {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 15px;
+    color: #fbfbfb;
+}
+
+.emailsubmit {
+    float: right;
+    margin-right: 35px;
+}
+
+.emailsubmit input {
+    margin-top: 85px;
+    outline: none;
+    padding: 16px 105px;
+    border-radius: 5px;
+    border-style: none;
+    position: relative;
+}
+
+.emailsubmit span {border: 1px solid #f5637c;padding: 14px;background: #f5637c;color: white;position: relative;content: "";top: 1px;bottom: 0px;margin-left: -10px;font-size: 14px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;cursor: pointer;transition:.3s;}
+
+.emailsubmit span:hover{
+	background:black;
+	color:white;
+	border:1px solid black;
+}
+#footer{
+	background:#131419;
+	
+}
+.footerinfowrapper {
+    overflow: hidden;
+    border-bottom: 1px solid #52535a;
+    padding-bottom: 50px;
+}
+
+.fsingalinfo {
+    width: 250px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid rgba(130, 152, 171, 0.35);
+    margin-top: 25px;
+    margin-right: 34px;
+}
+
+.fsingalinfo h1 {
+    color: white;
+	font-size:20px;
+	
+}
+
+.fsingalinfo span {
+    color: #807f73;
+}
+.fsingalinfo:last-child{
+	border:none;
+}
+.copyright {
+    overflow: hidden;
+}
+
+.policy {
+    width: 405px;
+    float: left;
+    margin-top: 50px;
+    color: #999;
+}
+
+.social {
+    width: 100px;
+    float: right;
+    margin-top: 50px;
+}
+
+.social i {
+    margin-right: 15px;
+    color: #999;
+	cursor:pointer;
+	transition:.3s;
+}
+.social i:hover{
+	color:#f5637c;
+}
